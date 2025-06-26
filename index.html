@@ -226,11 +226,14 @@
         .hero-subtitle {
             font-family: 'Orbitron', monospace;
             color: var(--neon-blue);
-            font-size: 1rem;
-            letter-spacing: 3px;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
             margin-bottom: 1rem;
             text-transform: uppercase;
             animation: glitch 2s infinite;
+            line-height: 1.2;
+            max-width: 100%;
+            word-wrap: break-word;
         }
 
         @keyframes glitch {
@@ -1102,6 +1105,12 @@
                 font-size: 1.8rem;
             }
 
+            .hero-subtitle {
+                font-size: 0.7rem;
+                letter-spacing: 1px;
+                line-height: 1.3;
+            }
+
             .about-grid {
                 grid-template-columns: 1fr;
                 text-align: center;
@@ -1196,11 +1205,11 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <div class="hero-subtitle">// AI/ML Engineer | Software Engineer | Cybersecurity Engineer</div>
+            <div class="hero-subtitle">AI/ML Engineer | Software Engineer | Cybersecurity Engineer</div>
             <h1>JOSHUA</h1>
             <div class="hero-title-line2">ZACHARIAH</div>
             <p class="hero-description">
-                Driven AI/ML Engineer, Software Engineer & Cybersecurity Professional specializing in 
+                Elite AI/ML Engineer, Software Engineer & Cybersecurity Professional specializing in 
                 intelligent systems, enterprise software development, and advanced security operations. 
                 National Cyber Scholar with expertise in machine learning, full-stack development, 
                 and cybersecurity infrastructure.
@@ -1239,7 +1248,7 @@
                 <div class="about-content">
                     <h3>// Profile: Multi-Domain Technical Expert</h3>
                     <p>
-                        Electrical and Computer Engineering Honors student and designated National Cyber Scholar with 
+                        Computer Engineering Honors student and designated National Cyber Scholar with 
                         expertise spanning AI/ML engineering, software development, and cybersecurity operations. 
                         Proven track record in building intelligent systems, enterprise applications, and 
                         advanced security infrastructure.
@@ -1532,7 +1541,7 @@
 
     <section id="projects" class="fade-in">
         <div class="container">
-            <h2 class="section-title">Security Arsenal</h2>
+            <h2 class="section-title">Project Portfolio</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-icon">🛡️</div>
@@ -1589,6 +1598,24 @@
                         <span class="tech-tag">TheHive</span>
                         <span class="tech-tag">NIST 800-61</span>
                         <span class="tech-tag">Slack API</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🧠</div>
+                    <h3 class="project-title">LLM-BASED AUTOMATION SYSTEM</h3>
+                    <p class="project-description">
+                        Production-grade AI system leveraging large language models to streamline software operations 
+                        through intelligent automation, combining backend engineering with advanced NLP capabilities 
+                        for scalable enterprise solutions.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">SQLAlchemy</span>
+                        <span class="tech-tag">OpenAI APIs</span>
+                        <span class="tech-tag">LLM Integration</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">Database Design</span>
                     </div>
                 </div>
             </div>
@@ -1668,6 +1695,10 @@
                         <div class="skill-item">Statistical Analysis</div>
                         <div class="skill-item">Jupyter</div>
                         <div class="skill-item">Machine Learning</div>
+                        <div class="skill-item">OpenAI APIs</div>
+                        <div class="skill-item">LLM Integration</div>
+                        <div class="skill-item">FastAPI</div>
+                        <div class="skill-item">SQLAlchemy</div>
                     </div>
                 </div>
 
@@ -1711,40 +1742,40 @@
     </section>
 
     <section id="contact" class="fade-in">
-    <div class="container">
-        <h2 class="section-title">Establish Connection</h2>
-        <div class="contact-content">
-            <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 3rem; line-height: 1.8;">
-                Ready to secure and scale your organization’s digital future? Whether you're seeking a high-impact 
-                cybersecurity intern, exploring AI-powered solutions, building resilient software systems, or innovating 
-                in chip design and semiconductors — let’s connect and drive the next wave of technology together.
-            </p>
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <div class="contact-icon">📧</div>
-                    <h3>Secure Email</h3>
-                    <a href="mailto:joshuaszachariah@gmail.com">joshuaszachariah@gmail.com</a>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">📱</div>
-                    <h3>Direct Line</h3>
-                    <a href="tel:469-858-5532">469-858-5532</a>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">💼</div>
-                    <h3>Professional Network</h3>
-                    <a href="https://www.linkedin.com/in/joshzachariah/" target="_blank">LinkedIn Profile</a>
+        <div class="container">
+            <h2 class="section-title">Establish Connection</h2>
+            <div class="contact-content">
+                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 3rem; line-height: 1.8;">
+                    Ready to secure your organization's digital infrastructure? Whether you're seeking 
+                    an elite cybersecurity professional, exploring advanced threat detection solutions, 
+                    or discussing cybersecurity internship opportunities, let's connect and strengthen 
+                    your security posture together.
+                </p>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Secure Email</h3>
+                        <a href="mailto:joshuaszachariah@gmail.com">joshuaszachariah@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h3>Direct Line</h3>
+                        <a href="tel:469-858-5532">469-858-5532</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>Professional Network</h3>
+                        <a href="https://www.linkedin.com/in/joshzachariah/" target="_blank">LinkedIn Profile</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
-
 
     <footer>
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Joshua Zachariah | AI/ML Software Engineer & Cybersecurity Engineer | All Systems Secured</p>
+                <p>&copy; 2025 Joshua Zachariah | Cybersecurity Engineer | All Systems Secured</p>
             </div>
         </div>
     </footer>
