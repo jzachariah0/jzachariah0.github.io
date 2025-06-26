@@ -1,6 +1,4 @@
-                <p style="font-size: 1.2rem; color: var(--text-secondary); margin-bottom: 3rem; line-height: 1.8;">
-                    Ready to secure your organization's digital infrastructure? Whether you're seeking 
-                    an elite cybersecurity professional, exploring advanced threat detection solutions, <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,7 +39,7 @@
             cursor: none;
         }
 
-        /* Custom Cursor */
+        /* Custom Cursor Fix */
         .cursor {
             width: 20px;
             height: 20px;
@@ -50,8 +48,9 @@
             position: fixed;
             pointer-events: none;
             z-index: 9999;
-            transition: all 0.1s ease;
+            transition: all 0.05s ease;
             box-shadow: var(--glow-shadow) var(--neon-green);
+            will-change: transform;
         }
 
         .cursor.hover {
@@ -163,23 +162,32 @@
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 3rem;
+            gap: 2.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 0.8rem 2rem;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 255, 65, 0.2);
         }
 
         .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 600;
             transition: all 0.3s ease;
             position: relative;
             text-transform: uppercase;
             letter-spacing: 1px;
             font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+            border-radius: 15px;
         }
 
         .nav-links a:hover {
             color: var(--neon-green);
             text-shadow: var(--glow-shadow) var(--neon-green);
+            background: rgba(0, 255, 65, 0.1);
+            transform: translateY(-2px);
         }
 
         .nav-links a::after {
@@ -1188,14 +1196,14 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <div class="hero-subtitle">// Cybersecurity Engineer</div>
+            <div class="hero-subtitle">// AI/ML Engineer | Software Engineer | Cybersecurity Engineer</div>
             <h1>JOSHUA</h1>
             <div class="hero-title-line2">ZACHARIAH</div>
             <p class="hero-description">
-                Elite Cybersecurity Engineer & National Cyber Scholar specializing in SOC operations, 
-                AI-driven threat detection, and enterprise security infrastructure. Computer Engineering 
-                Honors student with proven expertise in penetration testing, incident response, and 
-                advanced security analytics.
+                Elite AI/ML Engineer, Software Engineer & Cybersecurity Professional specializing in 
+                intelligent systems, enterprise software development, and advanced security operations. 
+                National Cyber Scholar with expertise in machine learning, full-stack development, 
+                and cybersecurity infrastructure.
             </p>
             
             <div class="terminal-window">
@@ -1229,23 +1237,23 @@
                     <div class="cyber-avatar">⚡</div>
                 </div>
                 <div class="about-content">
-                    <h3>// Profile: Elite Cybersecurity Engineer</h3>
+                    <h3>// Profile: Multi-Domain Technical Expert</h3>
                     <p>
                         Computer Engineering Honors student and designated National Cyber Scholar with 
-                        extensive hands-on experience in cybersecurity operations, threat detection, and 
-                        security infrastructure. Proven expertise in SOC simulation, automated incident 
-                        response, and AI-driven security analytics.
+                        expertise spanning AI/ML engineering, software development, and cybersecurity operations. 
+                        Proven track record in building intelligent systems, enterprise applications, and 
+                        advanced security infrastructure.
                     </p>
                     <p>
-                        Currently leading advanced robotics research implementing computer vision algorithms 
-                        while maintaining elite performance as top 0.01% performer across 90,000+ employees. 
-                        Specialized in building enterprise-grade security systems that protect critical 
-                        infrastructure and enable rapid threat response.
+                        Currently leading robotics research implementing machine learning algorithms while 
+                        maintaining elite performance as top 0.01% performer across 90,000+ employees. 
+                        Specialized in developing AI-powered solutions, scalable software systems, and 
+                        comprehensive security architectures.
                     </p>
                     <p>
-                        Technical expertise spans from network security engineering and penetration testing 
-                        to cloud infrastructure hardening, enabling comprehensive security architecture 
-                        design and deployment across hybrid environments.
+                        Technical expertise spans from machine learning model development and full-stack 
+                        software engineering to advanced cybersecurity operations, enabling end-to-end 
+                        solution design across multiple technology domains.
                     </p>
                 </div>
             </div>
@@ -1277,41 +1285,6 @@
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-date">
-                        <span class="date-text">Nov 2023 – Present</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="experience-card">
-                            <div class="company-logo">📐</div>
-                            <h3 class="position-title">Mathematics Instructor</h3>
-                            <h4 class="company-name">Mathnasium - The Math Learning Center</h4>
-                            <div class="location">Sunnyvale, TX</div>
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <span class="bullet">></span>
-                                    Providing one-on-one tutoring and group instruction to students across algebra, geometry, trigonometry, and calculus
-                                </div>
-                                <div class="achievement-item">
-                                    <span class="bullet">></span>
-                                    Developing personalized learning plans tailored to each student's unique needs and learning style, boosting understanding and academic performance
-                                </div>
-                                <div class="achievement-item">
-                                    <span class="bullet">></span>
-                                    Monitoring and reporting student achievements relative to course objectives, pinpointing areas requiring targeted tutoring
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">Mathematical Analysis</span>
-                                <span class="tech-tag">Problem Solving</span>
-                                <span class="tech-tag">Performance Tracking</span>
-                                <span class="tech-tag">Analytical Thinking</span>
-                                <span class="tech-tag">Educational Methods</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">
                         <span class="date-text">Jan 2025 – Present</span>
                     </div>
                     <div class="timeline-content">
@@ -1323,11 +1296,11 @@
                             <div class="achievements">
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Leading team to design and build socially assistive humanoid robot implementing computer vision algorithms, sensor integration, and custom circuit design using Python and OpenCV
+                                    <span>Leading team to design and build socially assistive humanoid robot implementing computer vision algorithms, sensor integration, and custom circuit design using Python and OpenCV</span>
                                 </div>
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Developing automated testing frameworks for robot perception systems with focus on real-time performance and systematic validation procedures
+                                    <span>Developing automated testing frameworks for robot perception systems with focus on real-time performance and systematic validation procedures</span>
                                 </div>
                             </div>
                             <div class="tech-stack">
@@ -1354,15 +1327,15 @@
                             <div class="achievements">
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Achieved top 0.01% performer ranking (14 of 90,000+ employees company-wide) demonstrating exceptional analytical capabilities and systematic problem-solving methodologies
+                                    <span>Achieved top 0.01% performer ranking (14 of 90,000+ employees company-wide) demonstrating exceptional analytical capabilities and systematic problem-solving methodologies</span>
                                 </div>
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Consistently ranked #1 employee in entire market utilizing Tableau and Power BI analytics to track performance metrics, KPIs, and optimization opportunities
+                                    <span>Consistently ranked #1 employee in entire market utilizing Tableau and Power BI analytics to track performance metrics, KPIs, and optimization opportunities</span>
                                 </div>
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Train and mentor employees on technical product knowledge and data-driven performance tracking using analytics dashboards
+                                    <span>Train and mentor employees on technical product knowledge and data-driven performance tracking using analytics dashboards</span>
                                 </div>
                             </div>
                             <div class="tech-stack">
@@ -1389,11 +1362,11 @@
                             <div class="achievements">
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Managed IoT data streams using Rust, developing data processing pipelines for real-time analysis and implementing efficient algorithms for large-scale data processing
+                                    <span>Managed IoT data streams using Rust, developing data processing pipelines for real-time analysis and implementing efficient algorithms for large-scale data processing</span>
                                 </div>
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Optimized system performance for handling massive sensor data volumes with sub-millisecond latency requirements
+                                    <span>Optimized system performance for handling massive sensor data volumes with sub-millisecond latency requirements</span>
                                 </div>
                             </div>
                             <div class="tech-stack">
@@ -1402,41 +1375,6 @@
                                 <span class="tech-tag">Data Pipelines</span>
                                 <span class="tech-tag">Real-time Systems</span>
                                 <span class="tech-tag">Performance Optimization</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">
-                        <span class="date-text">Aug 2017 – Present</span>
-                    </div>
-                    <div class="timeline-content">
-                        <div class="experience-card">
-                            <div class="company-logo">💼</div>
-                            <h3 class="position-title">Developer & IT Solutions Specialist</h3>
-                            <h4 class="company-name">Joshua Digital Solutions</h4>
-                            <div class="location">Dallas-Fort Worth Metroplex</div>
-                            <div class="achievements">
-                                <div class="achievement-item">
-                                    <span class="bullet">></span>
-                                    Achieved #1 local search rankings through SEO optimization and technical website development, resulting in 70% increase in organic traffic and 100% client satisfaction
-                                </div>
-                                <div class="achievement-item">
-                                    <span class="bullet">></span>
-                                    Provided comprehensive IT services including custom PC builds, system troubleshooting, network configuration, and technology upgrades for business clients
-                                </div>
-                                <div class="achievement-item">
-                                    <span class="bullet">></span>
-                                    Built scalable digital solutions for SMB clients focusing on security, performance, and reliability
-                                </div>
-                            </div>
-                            <div class="tech-stack">
-                                <span class="tech-tag">SEO Optimization</span>
-                                <span class="tech-tag">Web Development</span>
-                                <span class="tech-tag">Network Security</span>
-                                <span class="tech-tag">System Architecture</span>
-                                <span class="tech-tag">Client Solutions</span>
                             </div>
                         </div>
                     </div>
@@ -1455,15 +1393,15 @@
                             <div class="achievements">
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Founded and scaled global non-profit providing STEM education, establishing strategic partnerships with Microsoft, Google, Adobe, Garland ISD, and Kenyatta University
+                                    <span>Founded and scaled global non-profit providing STEM education, establishing strategic partnerships with Microsoft, Google, Adobe, Garland ISD, and Kenyatta University</span>
                                 </div>
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Developed curriculum and mentorship programs impacting hundreds of students worldwide
+                                    <span>Developed curriculum and mentorship programs impacting hundreds of students worldwide</span>
                                 </div>
                                 <div class="achievement-item">
                                     <span class="bullet">></span>
-                                    Built international network of educators and technology professionals advancing STEM accessibility
+                                    <span>Built international network of educators and technology professionals advancing STEM accessibility</span>
                                 </div>
                             </div>
                             <div class="tech-stack">
@@ -1472,6 +1410,76 @@
                                 <span class="tech-tag">Strategic Partnerships</span>
                                 <span class="tech-tag">Global Operations</span>
                                 <span class="tech-tag">Curriculum Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-text">Aug 2017 – Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="company-logo">💼</div>
+                            <h3 class="position-title">Developer & IT Solutions Specialist</h3>
+                            <h4 class="company-name">Joshua Digital Solutions</h4>
+                            <div class="location">Dallas-Fort Worth Metroplex</div>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <span class="bullet">></span>
+                                    <span>Achieved #1 local search rankings through SEO optimization and technical website development, resulting in 70% increase in organic traffic and 100% client satisfaction</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="bullet">></span>
+                                    <span>Provided comprehensive IT services including custom PC builds, system troubleshooting, network configuration, and technology upgrades for business clients</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="bullet">></span>
+                                    <span>Built scalable digital solutions for SMB clients focusing on security, performance, and reliability</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">SEO Optimization</span>
+                                <span class="tech-tag">Web Development</span>
+                                <span class="tech-tag">Network Security</span>
+                                <span class="tech-tag">System Architecture</span>
+                                <span class="tech-tag">Client Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date-text">Nov 2023 – Present</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="company-logo">📐</div>
+                            <h3 class="position-title">Mathematics Instructor</h3>
+                            <h4 class="company-name">Mathnasium - The Math Learning Center</h4>
+                            <div class="location">Sunnyvale, TX</div>
+                            <div class="achievements">
+                                <div class="achievement-item">
+                                    <span class="bullet">></span>
+                                    <span>Providing one-on-one tutoring and group instruction to students across algebra, geometry, trigonometry, and calculus</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="bullet">></span>
+                                    <span>Developing personalized learning plans tailored to each student's unique needs and learning style, boosting understanding and academic performance</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <span class="bullet">></span>
+                                    <span>Monitoring and reporting student achievements relative to course objectives, pinpointing areas requiring targeted tutoring</span>
+                                </div>
+                            </div>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Mathematical Analysis</span>
+                                <span class="tech-tag">Problem Solving</span>
+                                <span class="tech-tag">Performance Tracking</span>
+                                <span class="tech-tag">Analytical Thinking</span>
+                                <span class="tech-tag">Educational Methods</span>
                             </div>
                         </div>
                     </div>
@@ -1527,29 +1535,6 @@
             <h2 class="section-title">Security Arsenal</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-icon">🧠</div>
-                    <h3 class="project-title">NEURAL THREAT ANALYZER</h3>
-                    <p class="project-description">
-                        Advanced neural network system for real-time threat pattern recognition and 
-                        behavioral anomaly detection. Implements deep learning models for autonomous 
-                        classification of zero-day attacks and advanced persistent threats with 
-                        continuous learning capabilities.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">TensorFlow</span>
-                        <span class="tech-tag">PyTorch</span>
-                        <span class="tech-tag">Neural Networks</span>
-                        <span class="tech-tag">Anomaly Detection</span>
-                        <span class="tech-tag">Deep Learning</span>
-                        <span class="tech-tag">Real-time Processing</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Research Paper</a>
-                        <a href="#" class="project-link">Model Architecture</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
                     <div class="project-icon">🛡️</div>
                     <h3 class="project-title">SOC LAB SIMULATOR</h3>
                     <p class="project-description">
@@ -1564,10 +1549,6 @@
                         <span class="tech-tag">AWS EC2</span>
                         <span class="tech-tag">MITRE ATT&CK</span>
                         <span class="tech-tag">VirtualBox</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">View Details</a>
-                        <a href="#" class="project-link">Live Demo</a>
                     </div>
                 </div>
 
@@ -1588,8 +1569,8 @@
                         <span class="tech-tag">Azure</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link">Live Demo</a>
-                        <a href="#" class="project-link">GitHub</a>
+                        <a href="https://ai-phishing-detector-demo-815863f053c1.herokuapp.com/" target="_blank" class="project-link">Live Demo</a>
+                        <a href="https://github.com/jzachariah0/ai-phishing-detector" target="_blank" class="project-link">GitHub</a>
                     </div>
                 </div>
 
@@ -1609,76 +1590,6 @@
                         <span class="tech-tag">NIST 800-61</span>
                         <span class="tech-tag">Slack API</span>
                     </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Documentation</a>
-                        <a href="#" class="project-link">Architecture</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🔬</div>
-                    <h3 class="project-title">ASSISTIVE ROBOTICS</h3>
-                    <p class="project-description">
-                        Leading research team in developing socially assistive humanoid robot with 
-                        computer vision algorithms, sensor integration, and custom circuit design. 
-                        Includes automated testing frameworks for real-time perception systems.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">OpenCV</span>
-                        <span class="tech-tag">Circuit Design</span>
-                        <span class="tech-tag">Computer Vision</span>
-                        <span class="tech-tag">Sensor Fusion</span>
-                        <span class="tech-tag">Real-time Systems</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Research Paper</a>
-                        <a href="#" class="project-link">Lab Report</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">📊</div>
-                    <h3 class="project-title">IOT DATA PIPELINE</h3>
-                    <p class="project-description">
-                        High-performance IoT data processing system built with Rust for real-time 
-                        analysis of sensor streams. Implemented efficient algorithms for large-scale 
-                        data processing and anomaly detection in industrial environments.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Rust</span>
-                        <span class="tech-tag">IoT Protocols</span>
-                        <span class="tech-tag">Real-time Analytics</span>
-                        <span class="tech-tag">Data Pipelines</span>
-                        <span class="tech-tag">Anomaly Detection</span>
-                        <span class="tech-tag">Performance Optimization</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Case Study</a>
-                        <a href="#" class="project-link">Benchmarks</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🌐</div>
-                    <h3 class="project-title">DIGITAL SOLUTIONS</h3>
-                    <p class="project-description">
-                        Comprehensive IT consulting business achieving #1 local search rankings 
-                        through advanced SEO optimization. Delivered custom solutions including 
-                        network security, system architecture, and performance optimization.
-                    </p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">SEO Optimization</span>
-                        <span class="tech-tag">Network Security</span>
-                        <span class="tech-tag">System Architecture</span>
-                        <span class="tech-tag">Performance Tuning</span>
-                        <span class="tech-tag">Client Solutions</span>
-                        <span class="tech-tag">Business Growth</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link">Portfolio</a>
-                        <a href="#" class="project-link">Testimonials</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1688,24 +1599,6 @@
         <div class="container">
             <h2 class="section-title">Technical Arsenal</h2>
             <div class="skills-container">
-                <div class="skill-category">
-                    <h3>// Cybersecurity & Security Engineering</h3>
-                    <div class="skill-grid">
-                        <div class="skill-item">Splunk SIEM</div>
-                        <div class="skill-item">Suricata IDS</div>
-                        <div class="skill-item">Sysmon</div>
-                        <div class="skill-item">pfSense</div>
-                        <div class="skill-item">MITRE ATT&CK</div>
-                        <div class="skill-item">NIST 800-61</div>
-                        <div class="skill-item">Wireshark</div>
-                        <div class="skill-item">Penetration Testing</div>
-                        <div class="skill-item">Digital Forensics</div>
-                        <div class="skill-item">Incident Response</div>
-                        <div class="skill-item">Vulnerability Assessment</div>
-                        <div class="skill-item">Threat Hunting</div>
-                    </div>
-                </div>
-
                 <div class="skill-category">
                     <h3>// Cybersecurity & Security Engineering</h3>
                     <div class="skill-grid">
@@ -1841,7 +1734,7 @@
                     <div class="contact-card">
                         <div class="contact-icon">💼</div>
                         <h3>Professional Network</h3>
-                        <a href="https://linkedin.com/in/joshzachariah/" target="_blank">LinkedIn Profile</a>
+                        <a href="https://www.linkedin.com/in/joshzachariah/" target="_blank">LinkedIn Profile</a>
                     </div>
                 </div>
             </div>
@@ -1857,16 +1750,25 @@
     </footer>
 
     <script>
-        // Custom cursor
+        // Custom cursor with performance optimization
         const cursor = document.querySelector('.cursor');
         let mouseX = 0, mouseY = 0;
+        let isMoving = false;
 
         document.addEventListener('mousemove', (e) => {
             mouseX = e.clientX;
             mouseY = e.clientY;
-            cursor.style.left = mouseX + 'px';
-            cursor.style.top = mouseY + 'px';
+            
+            if (!isMoving) {
+                isMoving = true;
+                requestAnimationFrame(updateCursor);
+            }
         });
+
+        function updateCursor() {
+            cursor.style.transform = `translate(${mouseX - 10}px, ${mouseY - 10}px)`;
+            isMoving = false;
+        }
 
         // Cursor hover effects
         const hoverElements = document.querySelectorAll('a, button, .btn, .project-card, .skill-item, .stat-card');
