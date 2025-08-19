@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Joshua S. Zachariah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-xl border-b border-slate-200/80 shadow-sm transition-all duration-300">
+        <div class="container mx-auto px-8 lg:px-16">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo/Brand -->
+                <div class="flex-shrink-0">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-11 h-11 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center shadow-md">
+                            <span class="text-white font-bold text-lg tracking-tight">JZ</span>
+                        </div>
+                        <div class="hidden sm:block">
+                            <div class="text-base font-semibold text-slate-800 leading-tight">Joshua Zachariah</div>
+                            <div class="text-sm text-slate-500 leading-tight">Cybersecurity & Technology Professional</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-2">
+                    <a href="index.html" class="nav-link-pro group relative px-5 py-2.5 text-sm font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50/50 rounded-lg transition-all duration-200">
+                        <span>HOME</span>
+                        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></div>
+                    </a>
+                    <a href="about.html" class="nav-link-pro group relative px-5 py-2.5 text-sm font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50/50 rounded-lg transition-all duration-200">
+                        <span>ABOUT</span>
+                        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></div>
+                    </a>
+                    <a href="experience.html" class="nav-link-pro group px-5 py-2.5 text-sm font-medium text-blue-600 bg-blue-50 border border-blue-200 rounded-lg transition-all duration-200">
+                        <span>EXPERIENCE</span>
+                        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-100 transition-transform duration-200"></div>
+                    </a>
+                    <a href="projects.html" class="nav-link-pro group relative px-5 py-2.5 text-sm font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50/50 rounded-lg transition-all duration-200">
+                        <span>PROJECTS</span>
+                        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></div>
+                    </a>
+                    <a href="skills.html" class="nav-link-pro group relative px-5 py-2.5 text-sm font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50/50 rounded-lg transition-all duration-200">
+                        <span>SKILLS</span>
+                        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></div>
+                    </a>
+                    <a href="blog.html" class="nav-link-pro group relative px-5 py-2.5 text-sm font-medium text-slate-600 hover:text-blue-600 hover:bg-blue-50/50 rounded-lg transition-all duration-200">
+                        <span>BLOG</span>
+                        <div class="absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200"></div>
+                    </a>
+                </div>
+
+                <!-- CTA Button & Mobile Menu -->
+                <div class="flex items-center space-x-5">
+                    <a href="contact.html" class="hidden md:inline-flex items-center px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+                        <span>Connect</span>
+                    </a>
+                    
+                    <!-- Mobile menu button -->
+                    <button class="lg:hidden p-3 rounded-lg text-slate-600 hover:text-blue-600 hover:bg-blue-50 transition-colors duration-200" id="mobile-menu-button">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="lg:hidden hidden bg-white/98 backdrop-blur-xl border-b border-slate-200/80 shadow-lg" id="mobile-menu">
+            <div class="px-6 pt-4 pb-6 space-y-2">
+                <a href="index.html" class="block px-4 py-3 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-blue-50 hover:border-l-4 hover:border-blue-600 rounded-r-lg transition-all duration-200">HOME</a>
+                <a href="about.html" class="block px-4 py-3 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-blue-50 hover:border-l-4 hover:border-blue-600 rounded-r-lg transition-all duration-200">ABOUT</a>
+                <a href="experience.html" class="block px-4 py-3 text-sm font-semibold text-blue-600 bg-blue-50 border-l-4 border-blue-600 rounded-r-lg transition-colors duration-200">EXPERIENCE</a>
+                <a href="projects.html" class="block px-4 py-3 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-blue-50 hover:border-l-4 hover:border-blue-600 rounded-r-lg transition-all duration-200">PROJECTS</a>
+                <a href="skills.html" class="block px-4 py-3 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-blue-50 hover:border-l-4 hover:border-blue-600 rounded-r-lg transition-all duration-200">SKILLS</a>
+                <a href="blog.html" class="block px-4 py-3 text-sm font-medium text-slate-700 hover:text-blue-600 hover:bg-blue-50 hover:border-l-4 hover:border-blue-600 rounded-r-lg transition-all duration-200">BLOG</a>
+                <div class="pt-4 border-t border-slate-200">
+                    <a href="contact.html" class="block w-full px-4 py-3 text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 text-center rounded-lg shadow-md transition-all duration-200">
+                        Connect
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-20">
+        <!-- Hero Section -->
+        <section class="relative py-24 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden">
+            <!-- Background Pattern -->
+            <div class="absolute inset-0 opacity-40">
+                <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(139, 92, 246, 0.1) 0%, transparent 50%);"></div>
+            </div>
+            
+            <div class="container mx-auto px-8 lg:px-16 relative">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                        <span class="text-slate-900">Professional</span><br>
+                        <span class="text-slate-700">Experience</span>
+                    </h1>
+                    
+                    <p class="text-xl text-slate-600 leading-relaxed max-w-3xl mx-auto">
+                        A comprehensive overview of my professional journey spanning 
+                        <span class="font-semibold text-blue-600">AI/ML research</span>, 
+                        <span class="font-semibold text-purple-600">cybersecurity</span>, 
+                        <span class="font-semibold text-green-600">technology consulting</span>, and 
+                        <span class="font-semibold text-orange-600">community impact</span>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Content -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-8 lg:px-16">
+                <div class="max-w-7xl mx-auto">
+                    
+                    <!-- Professional Experience -->
+                    <div class="mb-24">
+                        <div class="text-center mb-16">
+                            <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 rounded-full text-sm font-medium mb-4">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                                </svg>
+                                Professional Experience
+                            </div>
+                            <h2 class="text-4xl font-bold text-slate-900 mb-4">Career Highlights</h2>
+                            <p class="text-lg text-slate-600 max-w-2xl mx-auto">Driving innovation across AI/ML research, cybersecurity, and technology consulting</p>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            <!-- AI/ML Research Engineer -->
+                            <div class="group bg-gradient-to-br from-blue-50 to-indigo-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-blue-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-blue-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <!-- Company Logo Placeholder -->
+                                    <div class="flex items-center justify-between mb-6">
+                                        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="w-16 h-8 bg-slate-200 rounded-lg flex items-center justify-center overflow-hidden">
+                                            <img src="Stealth.png" alt="Stealth Edtech Startup" class="w-full h-full object-contain">
+                                        </div>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">AI/ML Research Engineer</h3>
+                                    <p class="text-blue-600 font-semibold mb-1">Stealth Edtech Startup</p>
+                                    <p class="text-slate-500 text-sm mb-4">Jun 2025 - Present</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">Architecting personalized learning platform with RL algorithms and Neo4j knowledge graphs.</p>
+                                    <ul class="text-slate-600 text-sm space-y-1 mb-4">
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>40% reduction in content errors</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>Scalable architecture design</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-2"></span>GDPR & COPPA compliance</li>
+                                    </ul>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Python</span>
+                                        <span class="px-3 py-1 bg-green-200 text-green-800 rounded-full text-xs font-medium">Neo4j</span>
+                                        <span class="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-xs font-medium">MongoDB</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Research Assistant -->
+                            <div class="group bg-gradient-to-br from-purple-50 to-pink-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-purple-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-purple-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <!-- Company Logo Placeholder -->
+                                    <div class="flex items-center justify-between mb-6">
+                                        <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="w-16 h-8 bg-slate-200 rounded-lg flex items-center justify-center overflow-hidden">
+                                            <img src="utd-logo.jpg" alt="UT Dallas" class="w-full h-full object-contain">
+                                        </div>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">Research Assistant - Team Lead</h3>
+                                    <p class="text-purple-600 font-semibold mb-1">HBS Laboratory, UT Dallas</p>
+                                    <p class="text-slate-500 text-sm mb-4">Jan 2025 - Present</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">Leading team developing socially assistive humanoid robot with computer vision integration.</p>
+                                    <ul class="text-slate-600 text-sm space-y-1 mb-4">
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Team leadership & coordination</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Computer vision implementation</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Automated testing frameworks</li>
+                                    </ul>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-xs font-medium">Computer Vision</span>
+                                        <span class="px-3 py-1 bg-orange-200 text-orange-800 rounded-full text-xs font-medium">Robotics</span>
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Testing</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Best Buy -->
+                            <div class="group bg-gradient-to-br from-yellow-50 to-orange-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-yellow-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-yellow-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <!-- Company Logo Placeholder -->
+                                    <div class="flex items-center justify-between mb-6">
+                                        <div class="w-12 h-12 bg-gradient-to-br from-yellow-500 to-orange-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="w-16 h-8 bg-slate-200 rounded-lg flex items-center justify-center overflow-hidden">
+                                            <img src="best-buy.png" alt="Best Buy" class="w-full h-full object-contain">
+                                        </div>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">Technology Sales Consultant</h3>
+                                    <p class="text-orange-600 font-semibold mb-1">Best Buy - Computing Lead</p>
+                                    <p class="text-slate-500 text-sm mb-4">Oct 2023 - Present</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">Top 0.01% performer (14 of 90,000+) using analytics for optimization.</p>
+                                    <ul class="text-slate-600 text-sm space-y-1 mb-4">
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2"></span>#1 in market performance</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2"></span>Tableau/Power BI analytics</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-500 rounded-full mr-2"></span>AI & cybersecurity training</li>
+                                    </ul>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Tableau</span>
+                                        <span class="px-3 py-1 bg-yellow-200 text-yellow-800 rounded-full text-xs font-medium">Power BI</span>
+                                        <span class="px-3 py-1 bg-green-200 text-green-800 rounded-full text-xs font-medium">Analytics</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Rice University -->
+                            <div class="group bg-gradient-to-br from-teal-50 to-cyan-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-teal-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-teal-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <!-- Company Logo Placeholder -->
+                                    <div class="flex items-center justify-between mb-6">
+                                        <div class="w-12 h-12 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="w-16 h-8 bg-slate-200 rounded-lg flex items-center justify-center overflow-hidden">
+                                            <img src="rice.png" alt="Rice University" class="w-full h-full object-contain">
+                                        </div>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">Research Intern</h3>
+                                    <p class="text-teal-600 font-semibold mb-1">Rice University</p>
+                                    <p class="text-slate-500 text-sm mb-4">Jul 2023 - Aug 2023</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">Managed IoT data streams using Rust for real-time analysis and large-scale processing.</p>
+                                    <ul class="text-slate-600 text-sm space-y-1 mb-4">
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-teal-500 rounded-full mr-2"></span>IoT data stream management</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-teal-500 rounded-full mr-2"></span>Real-time data processing</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-teal-500 rounded-full mr-2"></span>Efficient algorithm development</li>
+                                    </ul>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-red-200 text-red-800 rounded-full text-xs font-medium">Rust</span>
+                                        <span class="px-3 py-1 bg-teal-200 text-teal-800 rounded-full text-xs font-medium">IoT</span>
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Data Processing</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- IT Consultant -->
+                            <div class="group bg-gradient-to-br from-green-50 to-emerald-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-green-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-green-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <!-- Company Logo Placeholder -->
+                                    <div class="flex items-center justify-between mb-6">
+                                        <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="w-16 h-8 bg-slate-200 rounded-lg flex items-center justify-center overflow-hidden">
+                                            <img src="joshuadigitalsolutions_logo.jpg" alt="Joshua Digital Solutions" class="w-full h-full object-contain">
+                                        </div>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">IT Consultant</h3>
+                                    <p class="text-green-600 font-semibold mb-1">Joshua Digital Solutions</p>
+                                    <p class="text-slate-500 text-sm mb-4">Aug 2017 - Present</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">#1 local search rankings, 70% organic traffic increase, 100% client satisfaction.</p>
+                                    <ul class="text-slate-600 text-sm space-y-1 mb-4">
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>SEO optimization & marketing</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Custom PC builds & solutions</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Network & security services</li>
+                                    </ul>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-green-200 text-green-800 rounded-full text-xs font-medium">SEO</span>
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Networking</span>
+                                        <span class="px-3 py-1 bg-red-200 text-red-800 rounded-full text-xs font-medium">Security</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Volunteer Experience -->
+                    <div class="mb-20">
+                        <h2 class="text-3xl font-semibold text-slate-900 mb-12 text-center">Community Impact & Volunteer Experience</h2>
+                        
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <!-- American Red Cross -->
+                            <div class="bg-red-50 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow duration-300 border border-red-100">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
+                                        </svg>
+                                    </div>
+                                    <div class="w-12 h-6 bg-slate-200 rounded flex items-center justify-center overflow-hidden">
+                                        <img src="Red-Cross.jpg" alt="American Red Cross" class="w-full h-full object-contain">
+                                    </div>
+                                </div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-2">American Red Cross</h3>
+                                <p class="text-red-600 font-medium text-sm mb-3">Disaster & Humanitarian Relief</p>
+                                <div class="text-left space-y-2">
+                                    <div>
+                                        <h4 class="font-medium text-slate-800 text-sm">Scheduling Specialist</h4>
+                                        <p class="text-slate-600 text-xs">Blood donor scheduling nationwide</p>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-medium text-slate-800 text-sm">Missing Maps</h4>
+                                        <p class="text-slate-600 text-xs">Humanitarian mapping initiative</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Schoolhouse.world -->
+                            <div class="bg-blue-50 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow duration-300 border border-blue-100">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="w-12 h-6 bg-slate-200 rounded flex items-center justify-center overflow-hidden">
+                                        <img src="schoolhouse.png" alt="Schoolhouse.world" class="w-full h-full object-contain">
+                                    </div>
+                                </div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-2">Schoolhouse.world</h3>
+                                <p class="text-blue-600 font-medium text-sm mb-3">Mathematics Tutor</p>
+                                <p class="text-slate-600 text-sm">Free tutoring on Khan Academy's platform, supporting students globally in mathematics education.</p>
+                            </div>
+
+                            <!-- Mathnasium -->
+                            <div class="bg-orange-50 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow duration-300 border border-orange-100">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div class="w-12 h-12 bg-orange-600 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="w-12 h-6 bg-slate-200 rounded flex items-center justify-center overflow-hidden">
+                                        <img src="mathnasium.png" alt="Mathnasium" class="w-full h-full object-contain">
+                                    </div>
+                                </div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-2">Mathnasium</h3>
+                                <p class="text-orange-600 font-medium text-sm mb-3">Mathematics Instructor</p>
+                                <div class="text-left space-y-2">
+                                    <p class="text-slate-600 text-xs">• One-on-one and group instruction</p>
+                                    <p class="text-slate-600 text-xs">• Personalized learning plans</p>
+                                    <p class="text-slate-600 text-xs">• Algebra through calculus</p>
+                                </div>
+                            </div>
+
+                            <!-- Panel Member -->
+                            <div class="bg-green-50 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow duration-300 border border-green-100">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4z"/>
+                                            <path d="M5.5 9.643a.75.75 0 00-1.5 0V10c0 3.06 2.29 5.585 5.25 5.954V17.5h-1.5a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-1.5v-1.546A6.001 6.001 0 0016 10v-.357a.75.75 0 00-1.5 0V10a4.5 4.5 0 01-9 0v-.357z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="w-12 h-6 bg-slate-200 rounded flex items-center justify-center overflow-hidden">
+                                        <img src="GISD.png" alt="Garland ISD" class="w-full h-full object-contain">
+                                    </div>
+                                </div>
+                                <h3 class="text-lg font-semibold text-slate-900 mb-2">Garland ISD Panel</h3>
+                                <p class="text-green-600 font-medium text-sm mb-3">Alumni Tech Advisor</p>
+                                <p class="text-slate-600 text-sm">Panel discussion on how CTE classes shaped technology and cybersecurity career paths.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Leadership & Organizations -->
+                    <div class="mb-24">
+                        <div class="text-center mb-16">
+                            <div class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-100 to-indigo-100 text-purple-700 rounded-full text-sm font-medium mb-4">
+                                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                                </svg>
+                                Leadership & Organizations
+                            </div>
+                            <h2 class="text-4xl font-bold text-slate-900 mb-4">Community Leadership</h2>
+                            <p class="text-lg text-slate-600 max-w-2xl mx-auto">Building communities and leading initiatives that create lasting impact</p>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-3 gap-8">
+                            <!-- Coding Central -->
+                            <div class="group bg-gradient-to-br from-indigo-50 to-blue-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-indigo-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <!-- Company Logo Placeholder -->
+                                    <div class="flex items-center justify-between mb-6">
+                                        <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-blue-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="w-16 h-8 bg-slate-200 rounded-lg flex items-center justify-center overflow-hidden">
+                                            <img src="codingcentral_logo.jpg" alt="Coding Central" class="w-full h-full object-contain">
+                                        </div>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">Founder and President</h3>
+                                    <p class="text-indigo-600 font-semibold mb-4">Coding Central</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">Leading a global computer science nonprofit organization impacting over 5,000 learners worldwide through educational initiatives and community building.</p>
+                                    <ul class="text-slate-600 text-sm space-y-1 mb-4">
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-indigo-500 rounded-full mr-2"></span>5K+ global community reach</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-indigo-500 rounded-full mr-2"></span>Educational program leadership</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-indigo-500 rounded-full mr-2"></span>Public speaking & advocacy</li>
+                                    </ul>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-indigo-200 text-indigo-800 rounded-full text-xs font-medium">Leadership</span>
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Education</span>
+                                        <span class="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-xs font-medium">Nonprofit</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Public Speaking -->
+                            <div class="group bg-gradient-to-br from-purple-50 to-pink-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-purple-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-purple-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4z"/>
+                                            <path d="M5.5 9.643a.75.75 0 00-1.5 0V10c0 3.06 2.29 5.585 5.25 5.954V17.5h-1.5a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-1.5v-1.546A6.001 6.001 0 0016 10v-.357a.75.75 0 00-1.5 0V10a4.5 4.5 0 01-9 0v-.357z"/>
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">Public Speaker & Advocate</h3>
+                                    <p class="text-purple-600 font-semibold mb-4">Technology & Educational Events</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">Active speaker at technology conferences and educational panels, sharing expertise in cybersecurity, AI/ML, and career development.</p>
+                                    <ul class="text-slate-600 text-sm space-y-1 mb-4">
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Technology conference speaking</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Educational panel participation</li>
+                                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-2"></span>Career guidance & mentoring</li>
+                                    </ul>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-xs font-medium">Public Speaking</span>
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Mentoring</span>
+                                        <span class="px-3 py-1 bg-green-200 text-green-800 rounded-full text-xs font-medium">Advocacy</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- University Organizations -->
+                            <div class="group bg-gradient-to-br from-emerald-50 to-teal-100 rounded-3xl p-8 hover:shadow-2xl transition-all duration-500 border border-emerald-200 hover:scale-105 relative overflow-hidden">
+                                <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-200 rounded-full -mr-16 -mt-16 opacity-20"></div>
+                                <div class="relative">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 mb-2">University Organizations</h3>
+                                    <p class="text-emerald-600 font-semibold mb-4">Engineer, Researcher, and Active Member</p>
+                                    <p class="text-slate-700 text-sm mb-4 leading-relaxed">Actively engaged in multiple university organizations spanning technology, research, and academic excellence.</p>
+                                    <div class="space-y-2 text-sm mb-4">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+                                            <span class="text-slate-700">Computer Science Group (CSG)</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <span class="w-2 h-2 bg-purple-500 rounded-full"></span>
+                                            <span class="text-slate-700">IEEE Student Chapter</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                            <span class="text-slate-700">ACM Computing Machinery</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                                            <span class="text-slate-700">Dallas Formula Racing</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <span class="w-2 h-2 bg-orange-500 rounded-full"></span>
+                                            <span class="text-slate-700">Comet Robotics</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <span class="w-2 h-2 bg-indigo-500 rounded-full"></span>
+                                            <span class="text-slate-700">Hobson Wildenthal Honors College</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="px-3 py-1 bg-emerald-200 text-emerald-800 rounded-full text-xs font-medium">Organizations</span>
+                                        <span class="px-3 py-1 bg-blue-200 text-blue-800 rounded-full text-xs font-medium">Research</span>
+                                        <span class="px-3 py-1 bg-purple-200 text-purple-800 rounded-full text-xs font-medium">Honors</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+          <!-- Footer -->
+    <footer class="bg-gradient-to-br from-slate-50 to-slate-100 py-16 border-t border-slate-200">
+        <div class="container mx-auto px-8 lg:px-16">
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- About Section -->
+                <div class="text-center md:text-left">
+                    <h3 class="text-xl font-bold text-slate-900 mb-4">Joshua S. Zachariah</h3>
+                    <p class="text-slate-600 mb-6">Cybersecurity professional passionate about securing the digital frontier through innovation and expertise.</p>
+                    
+                    <!-- Social Links -->
+                    <div class="flex justify-center md:justify-start space-x-4">
+                        <a href="https://github.com/jzachariah0" 
+                           class="group bg-white p-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-200 hover:border-blue-300">
+                            <svg class="w-5 h-5 text-slate-600 group-hover:text-blue-600 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/joshzachariah/" 
+                           class="group bg-white p-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-200 hover:border-blue-300">
+                            <svg class="w-5 h-5 text-slate-600 group-hover:text-blue-600 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:joshuaszachariah@gmail.com" 
+                           class="group bg-white p-3 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-slate-200 hover:border-blue-300">
+                            <svg class="w-5 h-5 text-slate-600 group-hover:text-blue-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="text-center">
+                    <h4 class="text-lg font-semibold text-slate-900 mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Home</a></li>
+                        <li><a href="about.html" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">About</a></li>
+                        <li><a href="experience.html" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Experience</a></li>
+                        <li><a href="projects.html" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Projects</a></li>
+                        <li><a href="skills.html" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Skills</a></li>
+                        <li><a href="contact.html" class="text-slate-600 hover:text-blue-600 transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="text-center md:text-right">
+                    <h4 class="text-lg font-semibold text-slate-900 mb-4">Let's Connect</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-center justify-center md:justify-end">
+                            <svg class="w-5 h-5 text-slate-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <span class="text-slate-600">joshuaszachariah@gmail.com</span>
+                        </div>
+                        <div class="flex items-center justify-center md:justify-end">
+                            <svg class="w-5 h-5 text-slate-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <span class="text-slate-600">Dallas, TX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Bar -->
+            <div class="border-t border-slate-200 mt-12 pt-8 text-center">
+                <p class="text-slate-600">© 2025 Joshua S. Zachariah. Securing the digital frontier, one line of code at a time.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                
+                // Close mobile menu when clicking a link
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+                
+                // Close mobile menu when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!mobileMenuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

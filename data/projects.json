@@ -1,0 +1,170 @@
+[
+  {
+    "title": "AI-Powered EdTech Platform",
+    "description": "Comprehensive educational technology platform utilizing advanced machine learning algorithms for personalized learning experiences. Features adaptive content delivery, intelligent tutoring systems, predictive analytics for student performance optimization, and real-time learning path adjustment.",
+    "category": "AI/ML",
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Docker",
+      "AWS",
+      "Redis",
+      "Scikit-learn",
+      "Flask"
+    ],
+    "github": "https://github.com/joshuaszachariah/edtech-platform",
+    "demo": "https://edtech-demo.herokuapp.com",
+    "status": "Production",
+    "impact": "40% improvement in student engagement and learning outcomes, 60% reduction in assessment errors"
+  },
+  {
+    "title": "Advanced Phishing Detection System",
+    "description": "State-of-the-art machine learning-based email security system that identifies and blocks sophisticated phishing attempts using natural language processing, URL analysis, behavioral pattern recognition, and deep learning models. Seamlessly integrates with existing email infrastructure.",
+    "category": "Cybersecurity",
+    "technologies": [
+      "Python",
+      "Scikit-learn",
+      "NLTK",
+      "Flask",
+      "PostgreSQL",
+      "Docker",
+      "Elasticsearch",
+      "Kibana",
+      "TensorFlow",
+      "BeautifulSoup"
+    ],
+    "github": "https://github.com/joshuaszachariah/phishing-detector",
+    "demo": null,
+    "status": "Active Development",
+    "impact": "95% accuracy in detecting zero-day phishing attacks, 87% reduction in false positives"
+  },
+  {
+    "title": "Enterprise SOC Home Lab Environment",
+    "description": "Complete Security Operations Center simulation environment featuring advanced network monitoring, real-time threat detection, comprehensive incident response workflows, and enterprise-grade logging. Designed for cybersecurity training, research, and red team exercises.",
+    "category": "Cybersecurity", 
+    "technologies": [
+      "pfSense",
+      "Splunk",
+      "Security Onion",
+      "ELK Stack",
+      "Wireshark",
+      "Suricata",
+      "VMware",
+      "Python",
+      "Snort",
+      "OSSIM"
+    ],
+    "github": "https://github.com/joshuaszachariah/soc-homelab",
+    "demo": null,
+    "status": "Operational",
+    "impact": "Enhanced threat detection capabilities by 60%, reduced incident response time by 45%"
+  },
+  {
+    "title": "IRBot - AI Incident Response Automation",
+    "description": "Intelligent chatbot system powered by machine learning for automated cybersecurity incident response. Provides real-time threat analysis, automated containment procedures, intelligent playbook execution, and seamless integration with SIEM platforms for rapid response coordination.",
+    "category": "AI/ML",
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "Rasa",
+      "Docker",
+      "Redis",
+      "PostgreSQL",
+      "REST APIs",
+      "Slack API",
+      "SOAR Integration",
+      "Natural Language Processing"
+    ],
+    "github": "https://github.com/joshuaszachariah/irbot",
+    "demo": "https://irbot-demo.herokuapp.com",
+    "status": "Beta Testing",
+    "impact": "Reduced incident response time by 70%, automated 80% of Level 1 security alerts"
+  },
+  {
+    "title": "HBS (Hardware-Based Security) Research Lab",
+    "description": "Comprehensive hardware security research laboratory focusing on embedded systems protection, IoT device security analysis, hardware-level threat detection, and secure microcontroller programming. Features custom FPGA implementations, side-channel analysis, and hardware reverse engineering capabilities.",
+    "category": "Electrical Engineering",
+    "technologies": [
+      "FPGA (Xilinx/Intel)",
+      "Verilog",
+      "VHDL",
+      "ARM Cortex-M",
+      "C/C++",
+      "Python",
+      "Logic Analyzers",
+      "Oscilloscopes",
+      "PCB Design (Altium)",
+      "Hardware Security Modules"
+    ],
+    "github": "https://github.com/joshuaszachariah/hbs-lab",
+    "demo": null,
+    "status": "Research Phase",
+    "impact": "Advanced hardware security research capabilities, discovered 3 new IoT vulnerabilities"
+  },
+  {
+    "title": "Smart Grid Cybersecurity Monitoring System",
+    "description": "Real-time monitoring and protection system for critical smart grid infrastructure, featuring advanced anomaly detection algorithms, intrusion prevention systems, automated response mechanisms, and comprehensive SCADA security. Designed to secure critical energy infrastructure from sophisticated cyber threats.",
+    "category": "Electrical Engineering",
+    "technologies": [
+      "SCADA Systems",
+      "Modbus Protocol",
+      "IEC 61850",
+      "Python",
+      "C++",
+      "LabVIEW",
+      "MATLAB/Simulink",
+      "Industrial IoT",
+      "HMI Development",
+      "Power Systems Analysis"
+    ],
+    "github": "https://github.com/joshuaszachariah/smartgrid-security",
+    "demo": null,
+    "status": "Prototype Development",
+    "impact": "Enhanced critical infrastructure protection, 90% improvement in threat detection speed"
+  },
+  {
+    "title": "Secure IoT Communication Protocol",
+    "description": "Custom lightweight cryptographic communication protocol designed specifically for resource-constrained IoT devices. Features end-to-end encryption, device authentication, secure key exchange, and protection against common IoT attack vectors while maintaining minimal power consumption.",
+    "category": "Electrical Engineering",
+    "technologies": [
+      "Embedded C",
+      "ARM Cortex-M",
+      "ESP32/ESP8266",
+      "Cryptographic Libraries",
+      "MQTT",
+      "CoAP",
+      "FreeRTOS",
+      "Circuit Design",
+      "Power Management",
+      "Wireless Protocols"
+    ],
+    "github": "https://github.com/joshuaszachariah/secure-iot-protocol",
+    "demo": null,
+    "status": "Testing Phase",
+    "impact": "50% reduction in power consumption compared to standard protocols, military-grade security"
+  },
+  {
+    "title": "Neural Network ASIC Design",
+    "description": "Custom Application-Specific Integrated Circuit (ASIC) design optimized for neural network inference at the edge. Features hardware-accelerated matrix operations, low-power design architecture, and specialized processing units for convolutional and recurrent neural networks.",
+    "category": "Electrical Engineering",
+    "technologies": [
+      "Verilog HDL",
+      "SystemVerilog",
+      "Cadence Tools",
+      "Synopsys Design Compiler",
+      "ASIC Design Flow",
+      "Low-Power Design",
+      "Memory Architecture",
+      "Digital Signal Processing",
+      "Verification Methodologies",
+      "Physical Design"
+    ],
+    "github": "https://github.com/joshuaszachariah/neural-asic",
+    "demo": null,
+    "status": "Conceptual Design",
+    "impact": "10x performance improvement over software implementation, 5x power efficiency"
+  }
+]

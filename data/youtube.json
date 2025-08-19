@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Building a Responsive Website from Scratch",
+    "description": "Learn how to create a fully responsive website using HTML, CSS, and JavaScript. Perfect for beginners looking to get started with web development.",
+    "videoId": "dQw4w9WgXcQ",
+    "duration": "25:30",
+    "publishedAt": "2024-01-15",
+    "views": 12500,
+    "tags": ["HTML", "CSS", "JavaScript", "Responsive Design", "Tutorial"]
+  },
+  {
+    "id": 2,
+    "title": "JavaScript ES6+ Features You Should Know",
+    "description": "Explore the most important ES6+ features that every JavaScript developer should master. Includes arrow functions, destructuring, modules, and more.",
+    "videoId": "dQw4w9WgXcQ",
+    "duration": "18:45",
+    "publishedAt": "2024-02-01",
+    "views": 8900,
+    "tags": ["JavaScript", "ES6", "Modern JavaScript", "Programming", "Tutorial"]
+  },
+  {
+    "id": 3,
+    "title": "CSS Grid vs Flexbox: When to Use Which?",
+    "description": "A comprehensive comparison between CSS Grid and Flexbox. Learn when to use each layout method with practical examples and real-world scenarios.",
+    "videoId": "dQw4w9WgXcQ",
+    "duration": "22:15",
+    "publishedAt": "2024-02-15",
+    "views": 15200,
+    "tags": ["CSS", "CSS Grid", "Flexbox", "Layout", "Web Design"]
+  },
+  {
+    "id": 4,
+    "title": "Building a Task Manager App with Vanilla JavaScript",
+    "description": "Create a fully functional task management application using only vanilla JavaScript. Learn about DOM manipulation, local storage, and event handling.",
+    "videoId": "dQw4w9WgXcQ",
+    "duration": "45:20",
+    "publishedAt": "2024-03-01",
+    "views": 20100,
+    "tags": ["JavaScript", "Project", "DOM", "Local Storage", "Tutorial"]
+  },
+  {
+    "id": 5,
+    "title": "Web Performance Optimization Tips",
+    "description": "Learn essential techniques to make your websites faster and more efficient. Covers image optimization, code splitting, caching strategies, and more.",
+    "videoId": "dQw4w9WgXcQ",
+    "duration": "30:10",
+    "publishedAt": "2024-03-15",
+    "views": 11800,
+    "tags": ["Performance", "Optimization", "Web Development", "Best Practices"]
+  },
+  {
+    "id": 6,
+    "title": "Getting Started with GitHub Pages",
+    "description": "Learn how to deploy your websites for free using GitHub Pages. Perfect for hosting portfolios, documentation, and static websites.",
+    "videoId": "dQw4w9WgXcQ",
+    "duration": "16:30",
+    "publishedAt": "2024-04-01",
+    "views": 9500,
+    "tags": ["GitHub", "GitHub Pages", "Deployment", "Hosting", "Tutorial"]
+  }
+]

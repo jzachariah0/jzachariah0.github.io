@@ -1,0 +1,110 @@
+[
+  {
+    "title": "AI/ML Research Intern",
+    "company": "University Research Lab",
+    "duration": "May 2024 - Present",
+    "description": "Leading cutting-edge machine learning research initiatives focused on cybersecurity applications and automated threat detection systems. Developing advanced AI models for real-time incident response and security analysis while mentoring junior researchers.",
+    "achievements": [
+      "Developed ML models achieving 95% accuracy for advanced phishing detection",
+      "Led cross-functional research team of 5 students on AI security projects",
+      "Published peer-reviewed findings in university cybersecurity journal",
+      "Implemented automated threat analysis system reducing response time by 60%",
+      "Reduced false positive rates by 40% in security alert systems",
+      "Designed neural network architecture for zero-day malware detection"
+    ],
+    "technologies": [
+      "Python",
+      "TensorFlow",
+      "PyTorch", 
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Git",
+      "Jupyter",
+      "CUDA"
+    ]
+  },
+  {
+    "title": "Cybersecurity Research Lead",
+    "company": "National Cyber Scholar Program - ISC2",
+    "duration": "January 2024 - Present", 
+    "description": "Leading advanced cybersecurity research initiatives as part of ISC2's prestigious National Cyber Scholar program. Specializing in threat detection, incident response automation, and security architecture design for enterprise environments.",
+    "achievements": [
+      "Earned ISC2 Certified in Cybersecurity (CC) professional certification",
+      "Designed and implemented comprehensive SOC home lab environment",
+      "Developed Python-based incident response automation tools",
+      "Mentored 12+ junior researchers in cybersecurity best practices",
+      "Presented research findings at 3 national cybersecurity conferences",
+      "Created threat intelligence framework reducing analysis time by 50%"
+    ],
+    "technologies": [
+      "Splunk",
+      "Wireshark",
+      "Metasploit",
+      "Nmap",
+      "Burp Suite",
+      "SIEM Tools",
+      "Python",
+      "PowerShell",
+      "Linux",
+      "Suricata",
+      "ELK Stack",
+      "pfSense"
+    ]
+  },
+  {
+    "title": "Technical Sales Associate & Security Consultant",
+    "company": "Best Buy",
+    "duration": "June 2023 - December 2023",
+    "description": "Provided expert technical consultation and customer service in consumer electronics, specializing in computer hardware, networking equipment, and cybersecurity solutions for home and small business customers. Achieved top-tier sales performance while maintaining exceptional customer satisfaction.",
+    "achievements": [
+      "Achieved top 5% sales performance in technology department nationally",
+      "Specialized in cybersecurity products and enterprise network solutions",
+      "Provided technical consultation for 200+ home and small business setups",
+      "Maintained 98% customer satisfaction rating with 150+ reviews",
+      "Trained 8 new team members on advanced technical product knowledge",
+      "Generated $50K+ in additional revenue through security solution upselling"
+    ],
+    "technologies": [
+      "Computer Hardware",
+      "Networking Equipment",
+      "Consumer Security Software",
+      "Point of Sale Systems",
+      "Customer Relationship Management",
+      "Product Training Platforms",
+      "Windows",
+      "macOS",
+      "Mobile Devices"
+    ]
+  },
+  {
+    "title": "Freelance IT Consultant & Cybersecurity Specialist",
+    "company": "Independent Practice",
+    "duration": "September 2022 - Present",
+    "description": "Providing comprehensive IT consulting and cybersecurity services including security assessments, network architecture design, threat detection implementation, and incident response for small to medium businesses and individual clients.",
+    "achievements": [
+      "Completed 75+ successful client engagements with 100% satisfaction rate", 
+      "Implemented cybersecurity solutions reducing client vulnerabilities by 85%",
+      "Designed and deployed secure network infrastructures for 20+ businesses",
+      "Provided 24/7 technical support and rapid incident response services",
+      "Developed custom automation scripts saving clients 30+ hours/week",
+      "Conducted security training workshops for 100+ employees across various organizations"
+    ],
+    "technologies": [
+      "Windows Server",
+      "Linux Administration",
+      "Network Security",
+      "Firewall Configuration",
+      "VPN Setup",
+      "Backup Solutions",
+      "Remote Monitoring",
+      "PowerShell Scripting",
+      "Python Automation",
+      "Cloud Security",
+      "Penetration Testing"
+    ]
+  }
+]

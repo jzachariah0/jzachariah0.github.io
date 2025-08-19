@@ -1,0 +1,209 @@
+{
+  "categories": [
+    {
+      "name": "Programming Languages",
+      "skills": [
+        {
+          "name": "Python",
+          "level": 95,
+          "icon": "fab fa-python",
+          "description": "Advanced proficiency in Python for AI/ML, cybersecurity automation, and web development"
+        },
+        {
+          "name": "JavaScript",
+          "level": 85,
+          "icon": "fab fa-js-square",
+          "description": "Full-stack JavaScript development including Node.js, React, and modern ES6+ features"
+        },
+        {
+          "name": "C/C++",
+          "level": 80,
+          "icon": "fas fa-code",
+          "description": "Systems programming, embedded development, and performance-critical applications"
+        },
+        {
+          "name": "Java",
+          "level": 75,
+          "icon": "fab fa-java",
+          "description": "Enterprise applications, Android development, and object-oriented programming"
+        },
+        {
+          "name": "SQL",
+          "level": 85,
+          "icon": "fas fa-database",
+          "description": "Database design, optimization, and complex query development for data analysis"
+        },
+        {
+          "name": "PowerShell",
+          "level": 80,
+          "icon": "fas fa-terminal",
+          "description": "Windows automation, system administration, and cybersecurity scripting"
+        }
+      ]
+    },
+    {
+      "name": "Cybersecurity Tools",
+      "skills": [
+        {
+          "name": "Splunk",
+          "level": 90,
+          "icon": "fas fa-search",
+          "description": "SIEM administration, log analysis, and security monitoring dashboard creation"
+        },
+        {
+          "name": "Wireshark",
+          "level": 85,
+          "icon": "fas fa-network-wired",
+          "description": "Network traffic analysis, protocol examination, and security incident investigation"
+        },
+        {
+          "name": "Metasploit",
+          "level": 80,
+          "icon": "fas fa-bug",
+          "description": "Penetration testing, vulnerability assessment, and security exploitation techniques"
+        },
+        {
+          "name": "Nmap",
+          "level": 85,
+          "icon": "fas fa-radar-chart",
+          "description": "Network discovery, port scanning, and security assessment automation"
+        },
+        {
+          "name": "Burp Suite",
+          "level": 75,
+          "icon": "fas fa-shield-alt",
+          "description": "Web application security testing and vulnerability analysis"
+        },
+        {
+          "name": "SIEM Tools",
+          "level": 88,
+          "icon": "fas fa-eye",
+          "description": "Security information and event management across multiple platforms"
+        }
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "skills": [
+        {
+          "name": "AWS",
+          "level": 85,
+          "icon": "fab fa-aws",
+          "description": "Cloud architecture, security services, and scalable infrastructure deployment"
+        },
+        {
+          "name": "Docker",
+          "level": 80,
+          "icon": "fab fa-docker",
+          "description": "Containerization, microservices architecture, and deployment automation"
+        },
+        {
+          "name": "Kubernetes",
+          "level": 75,
+          "icon": "fas fa-dharmachakra",
+          "description": "Container orchestration, scaling, and cloud-native application management"
+        },
+        {
+          "name": "Git",
+          "level": 90,
+          "icon": "fab fa-git-alt",
+          "description": "Version control, collaborative development, and CI/CD pipeline integration"
+        },
+        {
+          "name": "Linux",
+          "level": 85,
+          "icon": "fab fa-linux",
+          "description": "System administration, security hardening, and server management"
+        },
+        {
+          "name": "Jenkins",
+          "level": 70,
+          "icon": "fas fa-cogs",
+          "description": "Continuous integration, automated testing, and deployment pipelines"
+        }
+      ]
+    },
+    {
+      "name": "AI/ML & Data Science",
+      "skills": [
+        {
+          "name": "TensorFlow",
+          "level": 85,
+          "icon": "fas fa-brain",
+          "description": "Deep learning model development, neural network architecture, and AI research"
+        },
+        {
+          "name": "PyTorch",
+          "level": 80,
+          "icon": "fas fa-fire",
+          "description": "Machine learning research, computer vision, and natural language processing"
+        },
+        {
+          "name": "Scikit-learn",
+          "level": 88,
+          "icon": "fas fa-chart-line",
+          "description": "Classical machine learning algorithms, data preprocessing, and model evaluation"
+        },
+        {
+          "name": "Pandas",
+          "level": 90,
+          "icon": "fas fa-table",
+          "description": "Data manipulation, analysis, and preprocessing for machine learning workflows"
+        },
+        {
+          "name": "NumPy",
+          "level": 85,
+          "icon": "fas fa-calculator",
+          "description": "Numerical computing, array operations, and mathematical computations"
+        },
+        {
+          "name": "Jupyter",
+          "level": 85,
+          "icon": "fas fa-book",
+          "description": "Data science notebooks, research documentation, and interactive analysis"
+        }
+      ]
+    },
+    {
+      "name": "Hardware & Engineering",
+      "skills": [
+        {
+          "name": "FPGA",
+          "level": 75,
+          "icon": "fas fa-microchip",
+          "description": "Field-programmable gate array design and hardware security implementations"
+        },
+        {
+          "name": "Verilog",
+          "level": 70,
+          "icon": "fas fa-code-branch",
+          "description": "Hardware description language for digital circuit design and FPGA programming"
+        },
+        {
+          "name": "ARM Cortex",
+          "level": 75,
+          "icon": "fas fa-cpu",
+          "description": "Embedded systems programming and microcontroller development"
+        },
+        {
+          "name": "PCB Design",
+          "level": 65,
+          "icon": "fas fa-drafting-compass",
+          "description": "Printed circuit board design and electronic hardware prototyping"
+        },
+        {
+          "name": "MATLAB",
+          "level": 80,
+          "icon": "fas fa-wave-square",
+          "description": "Engineering simulation, signal processing, and algorithm development"
+        },
+        {
+          "name": "LabVIEW",
+          "level": 70,
+          "icon": "fas fa-tools",
+          "description": "Instrumentation control, data acquisition, and automated testing systems"
+        }
+      ]
+    }
+  ]
+}
